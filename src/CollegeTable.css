@@ -1,0 +1,50 @@
+.table-container {
+    max-height: 400px; 
+    overflow-y: auto;  
+    position: relative;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  thead th {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tbody td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-right: 1px solid #ddd; 
+  }
+  
+  th:last-child, td:last-child {
+    border-right: none;
+  }
+  
+  th {
+    cursor: pointer;
+  }
+  
+  .mySearchBar{
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 40px;
+  }
+
+  thead {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+  }
