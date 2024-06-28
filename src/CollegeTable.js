@@ -10,6 +10,8 @@ const CollegeTable = () => {
 
   useEffect(() => {
     setColleges(collegesData);
+    console.log(collegesData) ;
+    console.log("sambr")
   }, []);
 
   useEffect(() => {
